@@ -43,6 +43,18 @@ npm install
 
 ## Database Setup
 
+### Option 1: Using phpMyAdmin
+
+1. Open phpMyAdmin in your web browser (typically at `http://localhost/phpmyadmin`)
+2. Click on "New" in the left sidebar to create a new database
+3. Enter `powerproshop_testdb` as the database name and click "Create"
+4. Select the newly created database from the left sidebar
+5. Click on the "Import" tab at the top
+6. Click "Choose File" and select the `powerproshop_testdb.sql` file from your project directory
+7. Scroll down and click "Go" to import the database
+
+### Option 2: Using MySQL Command Line
+
 1. Create a new MySQL database:
 ```sql
 CREATE DATABASE powerproshop_testdb;
@@ -53,9 +65,12 @@ CREATE DATABASE powerproshop_testdb;
 mysql -u your_username -p powerproshop_testdb < powerproshop_testdb.sql
 ```
 
-3. Configure database connection:
-   - Copy `config/app_local.example.php` to `config/app_local.php`
-   - Update the database credentials in `config/app_local.php`:
+### Configure Database Connection
+
+After setting up the database using either method:
+
+1. Copy `config/app_local.example.php` to `config/app_local.php`
+2. Update the database credentials in `config/app_local.php`:
 ```php
 'Datasources' => [
     'default' => [
@@ -85,8 +100,8 @@ bin/cake server
 
 ## Default Admin Credentials
 
-- Email: admin@powerproshop.com
-- Password: admin123
+- Email: paul.powerproshop@gmail.com
+- Password: powerproshop2025
 
 ## Core Database Tables
 
