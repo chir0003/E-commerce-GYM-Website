@@ -1,0 +1,82 @@
+.main-container {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+}
+
+
+
+/*.custom-card {*/
+/*    border: 1px solid #dee2e6;*/
+/*    border-radius: 0.25rem;*/
+/*    padding: 2rem;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+/*.card-left {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+/*.icon-placeholder {*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    border: 1px solid #000;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    margin-right: 1.5rem;*/
+/*}*/
+/*.card-title {*/
+/*    font-size: 2rem;*/
+/*    color: #4a4a4a;*/
+/*    margin: 0;*/
+/*}*/
+
+
+
+
+/*.go-btn {*/
+/*    background-color: #ff6347;*/
+/*    border: none;*/
+/*    color: white;*/
+/*    padding: 0.5rem 2rem;*/
+/*    border-radius: 0.25rem;*/
+/*    font-weight: 500;*/
+/*}*/
+/*.go-btn:hover {*/
+/*    background-color: #ff5335;*/
+/*}*/
+
+
+/*.nav-pills .nav-link:hover:not(.active) {*/
+/*    background-color: rgba(255, 193, 7, 0.5); !* semi-transparent warning color *!*/
+/*}*/
+
+/*.nav-pills .nav-link.active {*/
+/*    background-color: #ffc107 !important; !* Bootstrap warning color *!*/
+/*    color: #212529 !important; !* Dark text *!*/
+/*}*/
+
+
+/* Custom styles for warning colored tabs */
+.custom-tab {
+    color: #212529;
+}
+
+.custom-tab:hover {
+    background-color: rgba(255, 193, 7, 0.5);
+    color: #212529;
+}
+
+.custom-tab.active {
+    background-color: #ffc107 !important;
+    color: #212529 !important;
+    border-color: transparent !important;
+}

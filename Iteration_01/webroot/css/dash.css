@@ -1,0 +1,111 @@
+/* Body and general text */
+body {
+    background-color: #40403e; /* Black background */
+    color: #dcdc9e; /* Yellow (Gold) text color */
+}
+
+
+/* Card styling */
+.card {
+    background-color: #222; /* Dark Grey background for cards */
+    color: #dcdc9e; /* Gold text color inside cards */
+    border: 2px solid #0e0e0e; /* Yellow Border around the card */
+}
+
+
+/* Primary button (View button) */
+.btn-primary {
+    background-color: #ffc107; /* Yellow */
+    border-color: #ffc107; /* Gold border */
+    color: black; /* Black text for visibility */
+}
+
+.btn-primary:hover {
+    background-color: #ffc107; /* Slightly Darker Yellow on hover */
+    border-color: #ffc107; /* Darker border on hover */
+}
+
+/* Contact Form Success Message */
+.contact-form.success-message {
+    background-color: #222; /* Dark background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ffc107; /* Yellow border */
+}
+
+/* Contact Form Heading */
+.contact-form h2 {
+    color: #ffc107; /* Yellow color for headings */
+}
+
+/* Contact Form Text */
+.contact-form p {
+    color: #ffc107; /* Yellow color for text */
+}
+
+/* Table styling */
+.table th, .table td {
+    border: 1px solid #0e0e0e; /* Yellow borders for table cells */
+    color: #dcdc9e; /* Gold text color */
+}
+
+/* Table Header Styling */
+.table th {
+    background-color: #40403e; /* Dark background for table header */
+    color: #ffc107; /* Yellow text in header */
+}
+
+/* Table Row Hover Effect */
+.table tbody tr:hover {
+    background-color: #333; /* Slightly lighter grey for hover effect */
+}
+
+/* Pagination Styling */
+.pagination .page-link {
+    background-color: #40403e; /* Dark background for pagination */
+    color: #ffc107; /* Gold text color for page links */
+    border: 1px solid #0e0e0e; /* Yellow border */
+}
+
+.pagination .page-link:hover {
+    background-color: #ffc107; /* Darker yellow when hovering over page link */
+    color: black; /* Text becomes black on hover */
+    border-color: #ffc107; /* Darker yellow border on hover */
+}
+
+/* Adjust button color for action buttons */
+.btn-warning, .btn-danger, .btn-info {
+    color: black; /* Black text for action buttons */
+    background-color: #ffc107; /* Yellow background for buttons */
+    border-color: #ffc107; /* Gold border */
+}
+
+.btn-warning:hover, .btn-danger:hover, .btn-info:hover {
+    background-color: #ffc107; /* Slightly Darker Yellow on hover */
+    border-color: #ffc107;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.4rem;
+    }
+
+    .feature-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .overlay {
+        padding: 20px;
+    }}

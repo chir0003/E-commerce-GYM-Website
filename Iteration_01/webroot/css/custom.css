@@ -1,0 +1,341 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap');
+
+h1, h2, h3, h4, .features-header h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+body, .feature-card p, .nav-links li a {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: white;
+    color: white;
+}
+
+.tagline {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+h1 { font-size: 3rem; font-weight: 700; }
+h2 { font-size: 2.5rem; font-weight: 600; }
+h3 { font-size: 2rem; font-weight: 600; }
+
+
+
+
+
+body {
+    background-color: white; /* Black */
+    /*color: white; !* Yellow (Gold) *!*/
+}
+
+.card {
+    background-color: #222; /* Dark Grey */
+    color: #dcdc9e; /* Gold Text */
+     /*color: white;*/
+    border: 2px solid #0e0e0e; /* Yellow Border */
+}
+
+.card .error-message {
+    color: #dc3545 !important; /* Bootstrap's danger color */
+    font-size: 0.8em; /* Adjust as needed */
+}
+
+.btn-primary {
+    background-color: rgba(251, 220, 80, 0.9); /* Yellow */
+    border-color: #ffc107;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #ffc107; /* Slightly Darker Yellow */
+    border-color: #ffc107;
+}
+.contact-form.success-message {
+    background-color: #222; /* Dark background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ffc107; /* Yellow border */
+}
+
+.contact-form h2 {
+    color: #ffc107; /* Yellow for heading */
+}
+
+.contact-form p {
+    color: #ffc107; /* Light grey for text */
+}
+.contact-form.success-message {
+    background-color: #222; /* Dark background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ffc107; /* Yellow border */
+}
+
+.contact-form h2 {
+    color: #ffc107; /* Yellow for heading */
+}
+
+.contact-form p {
+    color: #ffc107; /* Light grey for text */
+}
+
+.table {
+    background-color: #333; /* Darker background for tables */
+    color: #ffc107; /* Ensures text is visible on dark backgrounds */
+}
+
+.table th {
+    background-color: #222; /* Darker header row */
+    color: #ffc107; /* Yellow text for contrast */
+}
+
+.table td {
+    background-color: #333; /* Keep rows dark */
+    color: #ffc107; /* Ensure the text remains visible */
+}
+/* Make the container wider */
+.container {
+    max-width: 1200px;
+}
+
+/* Improve table design */
+.custom-table {
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.custom-table th, .custom-table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(251, 220, 80, 0.9); /* Line dividing rows */
+}
+
+.custom-table th {
+    background-color: #ffc107; /* Yellow background for headings */
+    color: white;
+}
+
+.custom-table td {
+    background-color: #40403e; /* White background for cells */
+}
+
+.custom-table tbody tr:nth-child(odd) td {
+    background-color: #40403e; /* Light grey for odd rows */
+}
+
+/* Hover effect for table rows */
+.custom-table tbody tr:hover {
+    background-color: #ffc107;
+}
+
+/* Style for action buttons */
+.actions .btn {
+    margin-right: 5px;
+}
+
+
+
+
+
+/* Footer section */
+footer {
+    background-color: #171616;
+    width: 100%; /* Ensure full width */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove padding from footer itself */
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+    min-width: 200px;
+    text-align: left;
+    margin: 0 45px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #ffc107;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #ffc107;
+}
+
+.contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-bottom {
+    /*margin-top: 20px;*/
+    padding-bottom: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    color: white !important;
+    background-color: #171616;
+}
+
+.footer-bottom-p {
+    background-color: #171616 !important;
+    color: white !important;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        padding: 10px;
+    }
+
+    .footer-column {
+        text-align: center;
+    }
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffc107;
+}
+
+.footer-cta h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-cta p {
+    font-size: 1.1rem;
+    color: #dddddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.4rem;
+    }
+
+    .feature-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .overlay {
+        padding: 20px;
+    }
+}
+
+.feature-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: visible !important;
+    cursor: pointer;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* CONTACT LIST */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin-bottom: 12px;
+}
+
+.contact-list a {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+    color: #ffc107;
+}
+
+.contact-list i {
+    font-size: 18px;
+    color: #ffc107;
+    min-width: 20px; /* Reserve horizontal space for the icon */
+    text-align: center;
+    margin-top: 4px; /* Optional: fine-tune vertical icon alignment */
+}
+
+.contact-list span {
+    display: inline-block;
+    max-width: 250px;
+    word-wrap: break-word;
+}
